@@ -9,21 +9,20 @@
   </head>
   <body>
     <div class="container">
+      <h1>Leap Year Detector</h1>
+
       <form id="leap-year">
+        <div class="form-group">
+          <label for="year">Enter a year here to find out if it is a leap year:</label>
+          <input id="year" type="text">
+        </div>
 
-
-      <div class="form-group">
-        <label for="year">Enter a year here to find out if it is a leap year or not</label>
-        <input id="year" type="text">
-
-
-      </div>
-      <button type="submit" class="btn btn-primary">Find out here</button>
+        <button type="submit" class="btn btn-primary">Find out here</button>
       </form>
+
       <div id="result">
-         <p><span class="year"></span> is <span class="not"></span> a leap year.</p>
+         <p><span class="year"></span> is <span class="not"></span> a leap year!</p>
       </div>
     </div>
-
   </body>
 </html>
